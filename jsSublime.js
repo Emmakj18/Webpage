@@ -33,7 +33,7 @@ header.css('background-image', backgrounds[0]);
         $('.panel').slideToggle('slow');
         $('.buyspecific, .slide').fadeIn('slow');
         var uname = $('input[name= uname]').val();
-        $('.hello').append('<div class="item">'+ uname + '</div>');
+        $('.hello').append('<div class="item">'+ "Hello " + uname + '</div>');
     });
     $(document).on('click', '.item', function() {
         $('.item').remove();

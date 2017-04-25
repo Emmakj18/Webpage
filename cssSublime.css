@@ -2,7 +2,7 @@ div.background {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/69/Raspberries05.jpg");
     width:100%;
     height:100%;
-    margin-top:50px;
+    margin-top:-10px;
     margin-left:-8px;
     position:fixed;
     transition: background .5s linear;
@@ -87,10 +87,8 @@ button:hover {
     text-align:center;
 }
 .slide {
-    margin:0; /*don't notice effects*/
-    padding:0;
     position:relative;
-    top:-560px;/*move + up or down*/
+    top:-500px;/*move + up or down*/
 }
 .pull-me {
     display:inline;
@@ -111,11 +109,11 @@ button:hover {
 }
 .navbar {
     position:absolute; /* need to keep bar set*/
-    /*left:40.5%;does nothing*/
     display:inline;
-    bottom:680px;
-    margin-left:-600;
-    
+    bottom:560px;
+    width:100%;
+    background-color: #ffffff;
+    opacity: 0.85; 
 }
 .topbutton, a {
     display:inline;
@@ -276,4 +274,5 @@ a:hover {
 }
 /*span*/.login {
     font-size:30px;   
+    font-family:times-new-roman;
 }
