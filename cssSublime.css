@@ -27,7 +27,7 @@ button {
     border: none;
     cursor: hand;
     width: 100%;
-    font-size:15px; 
+    font-size:15px;
 }
 button:hover {
     background-color:#fe6752;
@@ -54,7 +54,7 @@ button:hover {
     border-radius: 53%;
     position:relative;
     left:15%;
-    top:-40px;   
+    top:-40px;
 }
 /* The "Forgot password" text */
 /*span*/.psw {
@@ -64,7 +64,7 @@ button:hover {
 .container {
     background-color:#ffffbd;
     width:99%;
-    height:100%;  
+    height:100%;
     padding: 16px;
 }
 .pull-me{
@@ -110,27 +110,23 @@ button:hover {
     width:100%;
     height:5%;
     background-color: #ffffff;
-    opacity: 0.85; 
+    opacity: 0.85;
 }
-.topbutton, a {
-    display:inline;
-}
-.topbutton a
-{
-    text-decoration:none;
-    font-family:Arial;
-    text-align:center;
-    display:inline-block;
-    font-size:16px;
-    color:black; 
-    
+.navbar li a {
+  text-decoration:none;
+  font-family:Arial;
+  text-align:center;
+  display:inline-block;
+  font-size:16px;
+  color:black;
+  display:inline;
 }
 .inner:hover {
     color:#fa4743;
     background-color:white;
     border-top-color:#fa4743;
     border-top-style:solid;
-    border-top-width:2px; 
+    border-top-width:2px;
     padding-top:5px;
     transition-duration:.01;
 }
@@ -211,7 +207,7 @@ div.transbox p {
     text-align:center;
     display:inline-block;
     font-size:16px;
-    color:#ffffff; 
+    color:#ffffff;
     border-color:#fa4743;
     background-color:#fa4743;
     border-style: solid;
@@ -228,13 +224,13 @@ div.transbox p {
     border-width:2px;
     text-align:center;
     margin-top:490px; /*change to 400 from 575 but login goes away*/
-    margin-left:575px; 
+    margin-left:575px;
     text-decoration:none;
     font-family:Arial;
     padding-top:2.5px;
     display:inline-block;
     font-size:16px;
-    color:#ffffff; 
+    color:#ffffff;
 }
 a:hover {
     border-color:black;
@@ -259,7 +255,7 @@ a:hover {
     box-shadow: 0 0 15px gray;
 }
 #psw {
- color:black;   
+ color:black;
  font-family: Arial;
 }
 .hello {
@@ -269,6 +265,6 @@ a:hover {
     font-family:Tahoma;
 }
 /*span*/.login {
-    font-size:30px;   
+    font-size:30px;
     font-family:times-new-roman;
 }
