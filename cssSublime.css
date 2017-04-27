@@ -149,6 +149,7 @@ button:hover {
     margin:1px;
     display: inline;
     padding-top:7px;
+    padding-left:0px;
 }
 
 .background li {
