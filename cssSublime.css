@@ -85,7 +85,7 @@ button:hover {
 }
 .slide {
     position:relative;
-    top:-500px;/*move + up or down*/
+    top:-515px;/*move + up or down*/
 }
 .pull-me {
     display:inline;
@@ -106,7 +106,6 @@ button:hover {
 }
 .navbar {
     position:absolute; /* need to keep bar set*/
-    display:inline;
     width:100%;
     height:5%;
     background-color: #ffffff;
@@ -120,19 +119,19 @@ button:hover {
     text-decoration:none;
     font-family:Arial;
     text-align:center;
-    display:inline-block;
     font-size:16px;
     color:black; 
     
 }
-.inner:hover {
-    color:#fa4743;
-    background-color:white;
+.topbutton:hover {
     border-top-color:#fa4743;
     border-top-style:solid;
     border-top-width:2px; 
     padding-top:5px;
     transition-duration:.01;
+}
+.inner:hover{
+    background-color:white;
 }
 .background ul{
     list-style-type: none;
